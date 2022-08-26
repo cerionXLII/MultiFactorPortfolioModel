@@ -8,7 +8,8 @@ from sklearn.decomposition import PCA
 from zipline.data import bundles
 from zipline.pipeline import Pipeline
 from zipline.pipeline.factors import AverageDollarVolume
-from zipline.utils.calendars import get_calendar
+#from zipline.utils.calendars import get_calendar
+from zipline.utils.calendar_utils import get_calendar
 
 import project_helper
 from tests import assert_output, project_test, generate_random_dates, assert_structure, does_data_match
